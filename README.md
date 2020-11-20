@@ -55,16 +55,15 @@ $ python detect_demo.py --src 0
 
 ### Dataset
 
-We use pre-trained model trained by FER2013 dataset(See [here](https://www.kaggle.com/c/challenges-in-representation-learning-facial-expression-recognition-challenge/data)).
-The dataset consists of 48x48 pixel grayscale images of faces. The training set consists of 28,709 samples, and the test set used for the validation consists of 3,589 samples. Also, the dataset consists of visual data of facial expression labeled with 7 emotion categories.
+We use pre-trained model trained by FER2013 dataset(See [here](https://www.kaggle.com/c/challenges-in-representation-learning-facial-expression-recognition-challenge/data)). The dataset consists of visual data of facial expression labeled with 7 emotion categories.
 
 ### Face Detection
 
-We used MTCNN as a facial recognition technology to analyze emotions. MTCNN uses image pyramids by resizing images entered on different scales to recognize faces of different sizes in the images.
+We used MTCNN(See [here](https://arxiv.org/abs/1604.02878)) as a facial recognition model to detect emotions.
 
 ### Pre-trained Model
 
-In order to inference the model, we used pre-trained parameters using XCEPTION developed by Google(2017).
+In order to inference the model, we used pre-trained model XCEPTION(See [here](https://arxiv.org/abs/1610.02357)) developed by Google(2017).
 
 ## Sample Outputs
 
@@ -76,9 +75,6 @@ sample video:
 
 <img src="sample/sample2.gif" width="60%">
 
-sample webcam:
-
-<img src="sample/sample3.gif" width="60%">
 
 ## References
 
