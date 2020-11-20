@@ -29,7 +29,10 @@
 
 ## Quick Start
 
-* Clone this repository: $ git clone https://github.com/jaehwan-AI/face_detect
+* Clone this repository
+```bash
+$ git clone https://github.com/aiis-research/Face-detection
+```
 
 * Run the demo:
 
