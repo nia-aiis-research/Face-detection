@@ -67,11 +67,11 @@ In order to inference the model, we used pre-trained model XCEPTION(See [here](h
 
 ## Sample Outputs
 
-sample image:
+sample image output:
 
 <img src="sample/sample1.jpg" width="60%">
 
-sample video:
+sample video output:
 
 <img src="sample/sample2.gif" width="60%">
 
