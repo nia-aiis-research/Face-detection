@@ -61,7 +61,7 @@ We used MTCNN as a facial recognition technology to analyze emotions. MTCNN uses
 
 ### Pre-trained Model
 
-In order to inference the model, we used pre-learned weights using XCEPTION developed from Google(2017).
+In order to inference the model, we used pre-trained parameters using XCEPTION developed by Google(2017).
 
 <img src="xception.PNG" width="60%">
 
