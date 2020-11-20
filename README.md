@@ -55,8 +55,8 @@ $ python detect_demo.py --src 0
 
 ### Dataset
 
-This model trained with FER2013 dataset. [here](https://www.kaggle.com/c/challenges-in-representation-learning-facial-expression-recognition-challenge/data)
-The data consists of 48x48 pixel grayscale images of faces. The training set consists of 28,709 examples. The public test set used for the validation consists of 3,589 examples. The dataset have pictures based on the emotion shown in the facial expression in to one of seven categories.
+We use pre-trained model trained by FER2013 dataset(See [here](https://www.kaggle.com/c/challenges-in-representation-learning-facial-expression-recognition-challenge/data)).
+The dataset consists of 48x48 pixel grayscale images of faces. The training set consists of 28,709 samples, and the test set used for the validation consists of 3,589 samples. Also, the dataset consists of visual data of facial expression labeled with 7 emotion categories.
 
 ### Face Detection
 
